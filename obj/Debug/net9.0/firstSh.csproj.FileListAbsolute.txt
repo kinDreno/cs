@@ -1,0 +1,14 @@
+/home/kindr/codfol/csha/firstSh/bin/Debug/net9.0/firstSh
+/home/kindr/codfol/csha/firstSh/bin/Debug/net9.0/firstSh.deps.json
+/home/kindr/codfol/csha/firstSh/bin/Debug/net9.0/firstSh.runtimeconfig.json
+/home/kindr/codfol/csha/firstSh/bin/Debug/net9.0/firstSh.dll
+/home/kindr/codfol/csha/firstSh/bin/Debug/net9.0/firstSh.pdb
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.GeneratedMSBuildEditorConfig.editorconfig
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.AssemblyInfoInputs.cache
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.AssemblyInfo.cs
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.csproj.CoreCompileInputs.cache
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.dll
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/refint/firstSh.dll
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.pdb
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.genruntimeconfig.cache
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/ref/firstSh.dll
