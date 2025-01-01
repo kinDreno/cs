@@ -1,17 +1,50 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace HelloWorld;
-static class Program
+class Program
 {
-    static void Main(string[] args)
+    public class Student
     {
-        int[] arr = { 1, 4, 6, 6, 10, 0 };
-        int getLast = Array.LastIndexOf(arr, 0);
-        Console.WriteLine($"The last index that the value was seen is in the index of {getLast}!");
-        Array.Sort(arr);
-        foreach (int ar in arr)
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
+    public class Course
+    {
+        public int StudentId { get; set; }
+        public string CourseName { get; set; }
+    }
+
+    static void Main()
+    {
+        // List of students
+        var students = new List<Student>
         {
-            Console.WriteLine(ar);
+            new Student { Id = 1, Name = "John" },
+            new Student { Id = 2, Name = "Jane" },
+            new Student { Id = 3, Name = "Sam" }
+        };
+
+        var courses = new List<Course>
+        {
+            new Course { StudentId = 1, CourseName = "Math" },
+            new Course { StudentId = 2, CourseName = "Science" },
+            new Course { StudentId = 1, CourseName = "History" }
+        };
+
+        var studentCourses = from student in students
+                             join course in courses on student.Id equals course.StudentId
+                             select new
+                             {
+                                 student.Name,
+                                 course.CourseName
+                             };
+
+        // Output the results
+        foreach (var item in studentCourses)
+        {
+            Console.WriteLine($"{item.Name} is enrolled in {item.CourseName}");
         }
     }
 }

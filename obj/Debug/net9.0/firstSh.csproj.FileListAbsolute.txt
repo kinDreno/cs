@@ -12,3 +12,4 @@
 /home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.pdb
 /home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.genruntimeconfig.cache
 /home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/ref/firstSh.dll
+/home/kindr/codfol/csha/firstSh/obj/Debug/net9.0/firstSh.sourcelink.json
