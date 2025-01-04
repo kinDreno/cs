@@ -1,0 +1,31 @@
+    Common LINQ Methods
+    Where(): Filters data
+    Select(): Projects data (similar to SELECT in SQL)
+    OrderBy(): Sorts data in ascending order
+    OrderByDescending(): Sorts data in descending order
+    GroupBy(): Groups data
+    Sum(), Count(), Min(), Max(), Average()
+    Distinct(): Removes duplicates
+    Take(), Skip(): Pagination methods
+
+    Useful LINQ Extensions
+    ToList(): Converts the query result to a list
+    ToArray(): Converts the query result to an array
+    First(), FirstOrDefault(): Gets the first element, or default if empty
+    Any(): Checks if any element meets the condition
+    All(): Checks if all elements meet the condition
+
+    These methods help combine or compare sequences in different ways:
+    Concat(): Combines two sequences (allows duplicates).
+    Union(): Combines two sequences and removes duplicates.
+    Intersect(): Returns elements that appear in both sequences.
+    Except(): Returns elements from the first sequence that do not appear in the second sequence.
+
+    List<T>:
+    Add(), AddRange(), Insert(), Remove(), RemoveAt(), Clear()
+    Contains(), IndexOf(), LastIndexOf()
+    Sort(), Reverse(), ToArray(), ToList()
+    Find(), FindAll(), Exists(), ForEach(), type.Join("", variable), type.Equals(variable, isequalto)
+    Count, Capacity
+    Contains(), IndexOf(), Exists()
+    list.RemoveAll(item => item > 5); Removes all elements greater than 5
