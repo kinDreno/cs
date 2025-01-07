@@ -29,3 +29,22 @@
     Count, Capacity
     Contains(), IndexOf(), Exists()
     list.RemoveAll(item => item > 5); Removes all elements greater than 5
+
+    LINQ for querying:
+    LINQ Grouping: Learn how to use GroupBy() to group elements based on a key.
+    LINQ Joins: Study how to use Join(), GroupJoin(), and Zip() to work with multiple collections.
+    LINQ Projection: Explore using Select() and SelectMany() to transform or flatten data.
+    Deferred Execution and Lazy Loading: Understand how LINQ queries are executed lazily, and how to optimize queries for better performance.
+
+     List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+        var groupedNumbers = numbers.GroupBy(n => n % 2 == 0 ? "Even" : "Odd");
+        Console.WriteLine(groupedNumbers);
+        foreach (var group in groupedNumbers)
+        {
+            Console.WriteLine($"{group.Key}:");
+            foreach (var number in group)
+            {
+                Console.WriteLine($"  {number}");
+            }
+        }

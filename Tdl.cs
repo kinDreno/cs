@@ -15,8 +15,6 @@ class Person
     }
 }
 
-
-
 class Tdl
 {
     static List<Person> people = new List<Person> { };
@@ -43,7 +41,7 @@ class Tdl
             Console.WriteLine("Enter age: ");
             int age = Convert.ToInt32(Console.ReadLine());
 
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(name) || int.IsNegative(age))
             {
                 Console.WriteLine("You did not input anything.");
                 return;
